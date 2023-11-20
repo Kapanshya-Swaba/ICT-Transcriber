@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Interactive YouTube Transcript Generator For Educational Videos</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../static/css/styles.css">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body class="bg-dark text-white">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h1 class="text-center mb-4">Interactive Transcript Generator</h1>
+        
+        <form action="/transcribe" method="post">
+          <div class="form-group">
+            <label for="video_url">Enter YouTube Video URL:</label>
+            <input type="text" id="video_url" name="video_url" class="form-control" required>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Transcribe</button>
+        </form>
+
+        <div id="transcript" class="mt-4"></div>
+
+        <div class="mt-4">
+          <b><p>Why Use Our YouTube Transcript Generator?</p></b>
+              <b><p>Fast and Accurate</p></b>
+<p>Experience the power of technology as our advanced AI algorithms generate precise and reliable transcripts in mere seconds. Trust our ITG to deliver text that reflects the content of your videos with remarkable accuracy.</p>
+<div></div>
+<b><p>Free of Charge</p></b>
+ <div></div> 
+<p>We believe in democratizing accessibility to essential tools for content creators. Our YouTube Transcript Generator is entirely free to use, with no hidden costs or subscriptions required. Enjoy unlimited access to our transcription services without breaking the bank.</p>
+<div></div>
+
+        </div>
+
+        <div class="mt-4">
+          <b><p>How It Works</p></b>
+          <div> <ol start="1">
+  <li>Paste Video URL: Copy and paste the URL of the YouTube video you want to transcribe into our easy-to-use interface.</li>
+  <br />
+  <li>Click Generate Transcript: Hit the button, and we will swiftly process the video to produce a text-based transcript.</li>
+  <br />
+  <li>Copy and Use: With just a click, the transcript will be copied to your clipboard.</li>
+</ol>
+</div>
+          
+        </div>
+
+        <div class="mt-4">
+          <b><p>Summarize YouTube Videos</p></b>
+          <p>Save time and extract key information from any YouTube video with Kome's efficient video summarization tool. Get concise summaries in seconds!</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
